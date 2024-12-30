@@ -1,0 +1,75 @@
+/* General container styling for the UpdateAccount component */
+.update-container {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #f5f5f5; /* Optional: Match global background color */
+}
+
+.update-container h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.update-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input field styling specific to UpdateAccount */
+.update-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.update-container input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Button styling specific to UpdateAccount */
+.update-container button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    border: 16px;
+    border-radius: 29px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:2;
+    margin:1px;
+    
+    
+}
+
+.update-container button:hover {
+    background-color: #45a049;
+}
+
+.update-container button:active {
+    background-color: #3e8e41;
+}
+
+/* Responsive adjustments for UpdateAccount */
+@media (max-width: 500px) {
+    .update-container {
+        width: 90%;
+    }
+
+    .update-container h1 {
+        font-size: 20px;
+    }
+}
