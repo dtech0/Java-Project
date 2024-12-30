@@ -1,0 +1,144 @@
+/* AddProduct.css 
+
+.add-product {
+    padding: 3o px 50 px;
+    box-sizing:border-box;
+    background-color: white;
+    max-width: 800px;
+    width:100%;
+    margin:20px 30px;
+}
+
+.addproduct-itemfield {
+    font-size: 16px;
+    width:100%;
+    color: #7b7b7b;
+}
+
+
+
+.addproduct-itemfield input
+ {
+    
+    width: 100%;
+    height:50px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline:none;
+    font-family: 'Poppins';
+    font-size: 14px;
+
+}*/
+
+/* AddProduct.css */
+/* General form styling */
+.add-product {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addproduct-itemfield {
+  margin-bottom: 15px;
+}
+
+.addproduct-itemfield p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.addproduct-itemfield input,
+.addproduct-itemfield select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.addproduct-itemfield select {
+  appearance: none; /* Remove default select styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Price and Dates Section - Horizontal Layout */
+.addproduct-price,
+.addproduct-itemfield {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.addproduct-itemfield {
+  width: 48%; /* Make each field take half the space */
+  box-sizing: border-box;
+}
+
+/* Category section - Full width */
+.addproduct-itemfield select {
+  width: 100%;
+}
+
+/* Image Upload Section */
+.upload-label {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #f4f4f4;
+  border: 2px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.upload-placeholder {
+  font-size: 18px;
+  color: #888;
+}
+
+.preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.remove-image-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.addproduct-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.addproduct-btn:hover {
+  background-color: #45a049;
+}
